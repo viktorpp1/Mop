@@ -21,7 +21,7 @@ getgenv().ShowFOV = false
 getgenv().MacroKey = "v" -- to use the built in lua macro
 
 -- soft Aim
-getgenv().AimlockKey = "-"
+getgenv().AimlockKey = "["
 getgenv().SmoothnessAmount = 0.016
 getgenv().PredictionVelocity = 7.12
 ----------------------------------
@@ -57,7 +57,7 @@ local CurrentCamera = Workspace.CurrentCamera
  
     AimLock = false,
  
-    Prediction = 0.1205,
+    Prediction = 0.1208,
  
     AimLockKeybind = Enum.KeyCode.E,
  
