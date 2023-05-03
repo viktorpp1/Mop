@@ -5,7 +5,7 @@ getgenv().FovKey = "q" -- fov switch key, if you dont wanna look blatant long ra
 
 getgenv().Parts = {"Head", "HumanoidRootPart, UpperTorso"} -- {"Head", "HumanoidRootPart"}
 
-getgenv().Hitchance = 100
+getgenv().Hitchance = 97
 
 getgenv().Fov = 10 -- semi legit Rev: 9, 8, 8.5, 7.6, 7.5, 7.3
                    -- Rev(far): 7, 6.7, 6.4, 5.6, 5.3
@@ -21,7 +21,7 @@ getgenv().ShowFOV = false
 getgenv().MacroKey = "v" -- to use the built in lua macro
 
 -- soft Aim
-getgenv().AimlockKey = "]"
+getgenv().AimlockKey = "-"
 getgenv().SmoothnessAmount = 0.016
 getgenv().PredictionVelocity = 7.12
 ----------------------------------
